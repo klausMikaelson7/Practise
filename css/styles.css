@@ -1,6 +1,7 @@
 .pic {
     filter: invert(1%) sepia(5%) saturate(4441%) hue-rotate(244deg) brightness(87%) contrast(83%);
     width: 100%;
+    height: 100%;
     border-radius: 0px 10px 10px 0px;
 }
 #section1 {
@@ -46,7 +47,7 @@ span {
   color: hsla(0, 0%, 100%, 0.75);
   text-align: center;
 }
-@media only screen and (max-width:1028px) {
+@media only screen and (max-width:992px) {
   .kim{
     display: flex;
     flex-direction: column-reverse;
